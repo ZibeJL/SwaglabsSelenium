@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="case2(failed)">
+    <classes>
+      <class name="login.LoginTest_TestCase2">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="testSameDataInput"/>
+          <include name="setUp"/>
+          <include name="afterClass"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- login.LoginTest_TestCase2 -->
+    </classes>
+  </test> <!-- case2(failed) -->
+  <test thread-count="5" name="case3(failed)">
+    <classes>
+      <class name="login.LoginTest_TestCase3">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+          <include name="afterClass"/>
+          <include name="tearDown"/>
+          <include name="testBlocked_user"/>
+        </methods>
+      </class> <!-- login.LoginTest_TestCase3 -->
+    </classes>
+  </test> <!-- case3(failed) -->
+  <test thread-count="5" name="case4(failed)">
+    <classes>
+      <class name="login.LoginTest_TestCase4">
+        <methods>
+          <include name="testBlocked_user"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+          <include name="afterClass"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- login.LoginTest_TestCase4 -->
+    </classes>
+  </test> <!-- case4(failed) -->
+  <test thread-count="5" name="case5(failed)">
+    <classes>
+      <class name="login.LoginTest_TestCase5">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="EmptyImput"/>
+          <include name="setUp"/>
+          <include name="afterClass"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- login.LoginTest_TestCase5 -->
+    </classes>
+  </test> <!-- case5(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
