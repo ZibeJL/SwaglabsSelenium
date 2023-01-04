@@ -32,11 +32,11 @@ public class BaseTests {
 	}
 
   
-//@AfterTest
-//  (alwaysRun=true)
+@AfterTest
+  (alwaysRun=true)
 	
-//public void tearDown(){
-//		driver.close();
-//  }
+public void tearDown(){
+		driver.close();
+  }
 
 }
